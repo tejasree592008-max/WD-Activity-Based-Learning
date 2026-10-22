@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: LavenderBlush;
+    color: #65434B;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #98566B;
+}
+
+img {
+    display: block;
+}
+
+header {
+    background-color: MistyRose;
+    padding: 22px 5%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    color: #98566B;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #65434B;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: MediumVioletRed;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 55px 8%;
+    background-color: Seashell;
+}
+
+.hero-text {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.tagline {
+    color: MediumVioletRed;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h2 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+.hero-text p {
+    margin-bottom: 18px;
+}
+
+.hero > img {
+    width: 48%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+.btn {
+    display: inline-block;
+    background-color: #98566B;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #743B50;
+    transform: translateY(-3px);
+}
+.section {
+    padding: 55px 7%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+}
+
+.subtitle {
+    margin: 8px 0 30px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background-color: FloralWhite;
+    border-radius: 18px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 15px #E8CBD5;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px #DDBAC8;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #98566B;
+    margin: 14px 8px 7px;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 0 12px;
+    min-height: 45px;
+}
+
+.card h4 {
+    color: MediumVioletRed;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.alternate {
+    background-color: MistyRose;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 25px;
+}
+.gallery img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+.gallery h3 {
+    color: #98566B;
+    margin-top: 12px;
+}
+
+.custom-note {
+    margin-top: 28px;
+    font-weight: bold;
+}
+.offer {
+    background-color: #98566B;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.offer h2 {
+    color: White;
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.offer h3 {
+    color: LemonChiffon;
+    margin: 12px 0;
+}
+
+.offer .btn {
+    background-color: LemonChiffon;
+    color: #65434B;
+}
+
+.offer small {
+    display: block;
+    margin-top: 15px;
+}
+.about {
+    text-align: center;
+    padding: 45px 12%;
+    background-color: OldLace;
+}
+
+.about h2 {
+    margin-bottom: 12px;
+}
+.contact p {
+    margin: 8px 0;
+}
+footer {
+    background-color: #65434B;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: Pink;
+    margin-bottom: 8px;
+}
+
