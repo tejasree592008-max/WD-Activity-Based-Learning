@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #fffaf3;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #3e2723;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+header h2 {
+    color: #e8c9a0;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #e8c9a0;
+}
+
+/* Home */
+.hero {
+    min-height: 450px;
+    background: linear-gradient(
+        rgba(35, 20, 15, 0.55),
+        rgba(35, 20, 15, 0.55)
+    ), url("https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c49a6c;
+    color: #2c1a14;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e8c9a0;
+}
+
+
+section {
+    padding: 60px 7%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    color: #80685c;
+}
+
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.menu-item {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000015;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.menu-item h3 {
+    margin-top: 12px;
+}
+
+.menu-item h4 {
+    color: #9a633d;
+    margin-top: 8px;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.chefs {
+    background-color: #f2e6d8;
+}
+
+.chef-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.chef {
+    width: 250px;
+}
+
+.chef img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.about-text {
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+.ambience {
+    width: 100%;
+    max-width: 850px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.review {
+    background-color: #f2e6d8;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 350px;
+}
+
+/* Hours and location */
+.details {
+    background-color: #f2e6d8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Reservation form */
+.reservation {
+    background-color: #fffaf3;
+}
+
+form {
+    max-width: 500px;
+    margin: 25px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbb8a5;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #3e2723;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #795548;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: #e8c9a0;
+}
+
